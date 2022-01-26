@@ -27,12 +27,12 @@ go checker.HTTP(
 
     return nil
   },
-	func() error {
+  func() error {
     if !app.Live() {
       return errors.New("App is not live")
     }
 
     return nil
-	},
+  },
 )
 ```
